@@ -42,3 +42,23 @@ $theme-dark: #222;
         "mixins",
         "base"
 ;
+
+/* Map */
+section.map {
+  padding: 0;
+}
+
+map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    map {
+        height: 75%;
+    }
+}
+
+/*disable custom maps scrolling behaviour*/
+.scrolloff {
+    pointer-events: none;
+}
